@@ -1,4 +1,4 @@
-_name: Demo CI Action
+name: Demo CI Action
 
 on:
   push:
