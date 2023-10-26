@@ -1,4 +1,4 @@
-name: Demo CI Action
+_name: Demo CI Action
 
 on:
   push:
@@ -59,4 +59,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.HUB_USERNAME }}/external:v${{ github.run_number }}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/external:v${{ github.run_number }}
